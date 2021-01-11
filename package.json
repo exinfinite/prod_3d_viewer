@@ -1,0 +1,46 @@
+{
+	"name": "vr_viewer",
+	"version": "1.0.0",
+	"private": false,
+	"description": "",
+	"author": "Exinfinite Chen <chen.min.home@gmail.com>",
+	"browserslist": [
+		"> 1%",
+		"last 2 versions",
+		"not ie <= 10"
+	],
+	"engines": {
+		"node": ">= 10.11.0",
+		"npm": ">= 5.6.0",
+		"yarn": ">= 1.6.0"
+	},
+	"main": "./src/main.ts",
+	"scripts": {
+		"build": "set NODE_ENV=prod&&webpack --mode production",
+		"dev": "set NODE_ENV=dev&&webpack --mode development",
+		"type-check": "tsc --noEmit",
+		"type-check:watch": "npm run type-check -- --watch",
+		"start:watch": "npm run dev -- --watch",
+		"start:serve": "webpack-dev-server",
+		"start": "concurrently npm:start:*",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.10.4",
+		"@babel/polyfill": "^7.10.4",
+		"@babel/preset-env": "^7.10.4",
+		"babel-loader": "^8.1.0",
+		"concurrently": "^5.2.0",
+		"intersection-observer": "^0.11.0",
+		"terser-webpack-plugin": "^3.0.6",
+		"ts-loader": "^7.0.5",
+		"typescript": "^3.9.6",
+		"webpack": "^4.43.0",
+		"webpack-cli": "^3.3.12",
+		"webpack-dev-server": "^3.11.0"
+	},
+	"dependencies": {
+		"@types/createjs": "0.0.29",
+		"@types/easeljs": "^1.0.0"
+	}
+}

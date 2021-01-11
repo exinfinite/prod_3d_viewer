@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "outDir": "./dist",
+        "declarationDir": "./types",
+        "noImplicitAny": false,
+        "removeComments": true,
+        "preserveConstEnums": false,
+        "sourceMap": true,
+        "allowJs": true,
+        "alwaysStrict": true,
+        "strict": true,
+        "strictNullChecks": false,
+        "declaration": true,
+        "declarationMap": true,
+        "esModuleInterop": true,
+        "noEmitOnError": true
+    },
+    "files": [
+        "src/main.ts"
+    ],
+    "compileOnSave": true
+}
