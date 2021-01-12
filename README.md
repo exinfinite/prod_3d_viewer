@@ -6,6 +6,8 @@
 
 ## 範例及代碼
 
+[線上範例](https://prod-3d-viewer.netlify.app/)
+
 [Sample code](https://github.com/exinfinite/prod_3d_viewer/tree/main/example)
 
 [Production](https://github.com/exinfinite/prod_3d_viewer/blob/main/dist/vr.prod.js)
