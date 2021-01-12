@@ -3,6 +3,7 @@
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/exinfinite/prod_3d_viewer)
 ![GitHub file size in bytes](https://img.shields.io/github/size/exinfinite/prod_3d_viewer/dist/vr.prod.js)
 ![GitHub](https://img.shields.io/github/license/exinfinite/prod_3d_viewer)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9a17e564-c8ed-45f1-aeb7-70e05db45502/deploy-status)](https://app.netlify.com/sites/prod_3d_viewer/deploys)
 
 ## 範例及代碼
 
