@@ -23,6 +23,8 @@
 		"start:watch": "npm run dev -- --watch",
 		"start:serve": "webpack-dev-server",
 		"start": "concurrently npm:start:*",
+		"release": "standard-version --header=\"# Changelog \"",
+    	"release-first": "npm run release -- --first-release",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"devDependencies": {
